@@ -205,6 +205,34 @@ p {
     margin-right: 30px;
 }
 
+.webapp-img {
+    width:25%;
+    height:25%;
+    float:left;
+    margin-right: 30px;
+}
+
+.hms-img{
+    width:25%;
+    height:25%;
+    float:right;
+    margin-right: 30px;
+}
+
+.ll-img{
+    width:25%;
+    height:25%;
+    float:left;
+    margin-right: 30px;
+}
+
+.ojp-img{
+    width:25%;
+    height:25%;
+    float:right;
+    margin-right: 30px;
+}
+
 .imp-img{
     width:25%;
     height:25%;
@@ -254,3 +282,13 @@ p {
     margin-right: 30px;
 }
 
+
+
+
+/* @media (max-width: 991px){
+    .top-container {
+        background-color: #EAF6F6;
+        position: relative;
+        padding-top: 100px;
+    }
+} */
