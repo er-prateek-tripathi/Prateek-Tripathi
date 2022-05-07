@@ -8,7 +8,7 @@ a {
 }
 
 a:hover {
-    color:#eaf6f6;
+    color:#201835;
 }
 
 body {
@@ -287,13 +287,9 @@ p {
     height: auto;
 }
 
-
-
-
-/* @media (max-width: 991px){
-    .top-container {
-        background-color: #EAF6F6;
-        position: relative;
-        padding-top: 100px;
-    }
-} */
+.tindog-img{
+    width: 25%;
+        height: 25%;
+        float: left;
+        margin-right: 30px;
+}
