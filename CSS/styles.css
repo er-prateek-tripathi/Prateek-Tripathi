@@ -149,19 +149,24 @@ p {
     
 }
 
-
 .top-container {
     background-color: #EAF6F6 ;
     position:relative;
     padding-top: 100px;
 }
+
+.mountain-img {
+    width: 100%;
+    height: auto;
+}
+
 .top-cloud {
     position: absolute;
     right:240px;
     top:40px;
 }
 
-/** Images **/
+/** Major Images **/
 
 .ml-img{
     width:25%;
@@ -170,19 +175,22 @@ p {
     margin-right: 30px;
 }
 
-.web-img {
-    width:25%;
-    height:25%;
-    float:left;
-    margin-right: 30px;;
-}
-
 .dq-img {
     width:25%;
     height:25%;
     float:right;
     margin-right: 30px;
 }
+
+.web-img {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+    ;
+}
+
+/* Project Images */
 
 .agri-img {
     width:25%;
@@ -233,6 +241,14 @@ p {
     margin-right: 30px;
 }
 
+.tindog-img {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+/* Dataset Images */
 .imp-img{
     width:25%;
     height:25%;
@@ -282,14 +298,178 @@ p {
     margin-right: 30px;
 }
 
-.mountain-img{
-    width: 100%;
-    height: auto;
-}
 
-.tindog-img{
-    width: 25%;
-        height: 25%;
-        float: left;
-        margin-right: 30px;
+
+
+
+
+
+@media (max-width: 412px) {
+
+        .bio-text {
+            color: #40514E;
+            width: 80%;
+            margin: auto;
+            }
+
+        .skill-row {
+            width: 80%;
+            margin: 100px auto 100px auto;
+        
+        }
+        .project-row {
+            width: 80%;
+            margin: 100px auto 100px auto;
+            line-height: 2;
+        }
+
+        .dataset-row {
+            width: 80%;
+            margin: 100px auto 100px auto;
+            line-height: 2;
+        }
+        .contact-me {
+            width: 80%;
+            margin: 90px auto 90px auto;
+        }
+
+        hr {
+            border: dotted #c4d0d0 10px;
+            border-bottom: none;
+            width: 20%;
+            margin: 40px auto;
+        }
+
+        /** Major Images **/
+
+        .ml-img {
+            width: 50%;
+            height: 50%;
+            float: left;
+            margin-right: 30px;
+        }
+
+        .dq-img {
+            width: 40%;
+            height: 50%;
+            float: right;
+            margin-right: 30px;
+        }
+
+        .web-img {
+            width: 40%;
+            height: 50%;
+            float: left;
+            margin-right: 30px;
+            ;
+        }
+
+        /* Project Images */
+
+        .agri-img {
+            width: 50%;
+            height: 25%;
+            float: right;
+            margin-right: 30px;
+        }
+
+        .curr-img {
+            width: 50%;
+            height: 25%;
+            float: left;
+            margin-right: 30px;
+        }
+
+        .face-img {
+            width: 50%;
+            height: 25%;
+            float: right;
+            margin-right: 30px;
+        }
+
+        .webapp-img {
+            width: 50%;
+            height: 25%;
+            float: left;
+            margin-right: 30px;
+        }
+
+        .hms-img {
+            width: 45%;
+            height: 25%;
+            float: right;
+            margin-right: 30px;
+        }
+
+        .ll-img {
+            width: 50%;
+            height: 25%;
+            float: left;
+            margin-right: 30px;
+        }
+
+        .ojp-img {
+            width: 50%;
+            height: 25%;
+            float: right;
+            margin-right: 30px;
+        }
+
+        .tindog-img {
+            width: 50%;
+            height: 25%;
+            float: left;
+            margin-right: 30px;
+        }
+
+        /* Dataset Images */
+        .imp-img {
+            width: 50%;
+            height: 25%;
+            float: left;
+            margin-right: 30px;
+        }
+
+        .bank-img {
+            width: 50%;
+            height: 25%;
+            float: right;
+            margin-right: 30px;
+        }
+
+        .stock-img {
+            width: 50%;
+            height: 25%;
+            float: left;
+            margin-right: 30px;
+        }
+
+        .play-img {
+            width: 50%;
+            height: 25%;
+            float: right;
+            margin-right: 30px;
+        }
+
+        .cust-img {
+            width: 50%;
+            height: 25%;
+            float: left;
+            margin-right: 30px;
+        }
+
+        .invoice-img {
+            width: 50%;
+            height: 25%;
+            float: right;
+            margin-right: 30px;
+        }
+
+        .magic-img {
+            width: 50%;
+            height: 25%;
+            float: left;
+            margin-right: 30px;
+        }
+
 }
